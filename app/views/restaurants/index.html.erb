@@ -1,0 +1,9 @@
+<h1>Welcome to Restaurants</h1>
+<p>This is a list of all restaurants available nearby :</p>
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li>
+      <%= restaurant.name  %>
+    </li>
+  <% end %>
+</ul>
